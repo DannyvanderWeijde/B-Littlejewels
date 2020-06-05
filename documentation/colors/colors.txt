@@ -1,0 +1,5 @@
+Brown: #ad8c68
+Blue: #97a5aa
+Grey: #f6f5f1
+White: #fff
+Black: #000

@@ -1,0 +1,55 @@
+@media only screen and (min-width: 768px) and (orientation: portrait), (min-width: 768px) and (orientation: landscape){ 
+
+#nav,
+#innerNav{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+#nav{
+	border-top: 3px solid #97a5aa;
+	border-bottom: 3px solid #97a5aa;
+	padding: 20px 0px;
+	margin: 0px 0px 50px 0px;
+}
+
+#innerNav{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+#navItemsContainer{
+	margin: 0 auto;
+	display: table;
+}
+
+#companyName{
+	max-width: 1240px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#companyName h2{
+	font-family: 'Parisienne', cursive, Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 48px;
+}
+
+.navItem{
+	height: auto;
+	width: auto;
+	overflow: auto;
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+.navItem a{
+	color: #97a5aa;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+}

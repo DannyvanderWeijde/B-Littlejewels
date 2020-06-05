@@ -10,6 +10,7 @@
 ?>
 <body itemscope="" itemtype="http://schema.org/Store">
 	<?php
+		include "pages/index/navbar.php";
 		//directory
 		$path = "pages";
 		//Searches for files in directory. 
