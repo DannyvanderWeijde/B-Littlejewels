@@ -1,0 +1,9 @@
+d = If we have a directory with this name.
+f = If we have a file with this name.
+NC = It makes it so that i doesn't matter if the person typing in the url useses upper or lower case.
+L = Conditions about the code only works for this line.
+QSA = Query String Append, just in case you've got something like ?like=penguins on the end which you want to keep and pass to index.php.
+
+^(.*)$ means select everything and call it $1
+http://$1 means Go to domain stored in $1
+R=301 refers to status code 301, the "permanently moved" redirect.

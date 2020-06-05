@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([^/]*)\.php$ index.php?page=$1 [NC,QSA,L]
+
+RewriteRule ^([^/]*)/([^/]*)\.php$ index.php?page=$1&subPage=$2 [NC,QSA,L]
+
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.php$ index.php?page=$1&subPage=$2&lowerPage=$3 [NC,QSA,L]
+
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)\.php$ index.php?page=$1&subPage=$2&lowerPage=$3&lowerSubPage=$4 [NC,QSA,L]
