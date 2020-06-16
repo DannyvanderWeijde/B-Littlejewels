@@ -24,11 +24,20 @@
 	display: table;
 }
 
-#companyName{
+#companyHeader{
 	max-width: 1240px;
 	margin: 0 auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	overflow: auto;
+}
+
+#companyHeader a{
+	float: left;
+}
+
+#companyName{
+	margin: 0 auto;
 	text-align: center;
 }
 
@@ -50,6 +59,16 @@
 	color: #97a5aa;
 	text-decoration: none;
 	font-weight: bold;
+	text-transform: uppercase;
+	-webkit-transition: 0.5s linear color;
+    -moz-transition: 0.5s linear color;
+    -o-transition: 0.5s linear color;
+    -ms-transition: 0.5s linear color;
+    transition: 0.5s linear color;
+}
+
+.navItem a:hover{
+	color: #000;
 }
 
 }
