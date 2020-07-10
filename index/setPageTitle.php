@@ -14,9 +14,9 @@
 	*/
 	function getTitle($page){
 		if($page == "home" || $page == null){
-			return "Test - Home";
+			return "B-Littlejewels - Home";
 		}else if($page == "about"){
-			return "Test - About";
+			return "B-Littlejewels - About";
 		}else{
 			return "Error 404";
 		}

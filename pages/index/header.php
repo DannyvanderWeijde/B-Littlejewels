@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/combi-css.php">
-	<link rel="icon" type="image/vnd.microsoft.icon" href="assets/images/logo/b-littlejewels-logo-32x32.gif">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="assets/images/logo/b-littlejewels-logo-128x128.gif">
 	<!--[if lt IE 9]>
 		<link rel='stylesheet' type='text/css' href='assets/css/combi-ie-css.php' />
 	<![endif]-->

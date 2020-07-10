@@ -10,10 +10,8 @@
 ?>
 
 <div id="companyHeader">
-	<a href="home"><img src="assets/images/logo/b-littlejewels-logo-175x175.gif"></a>
-	<div id="companyName">
-		<h2>B-Little Jewels</h2>
-	</div>
+	<a href="home"><img src="assets/images/logo/b-littlejewels-logo-250x250.gif"></a>
+	<h2>B-Little Jewels</h2>
 </div>
 <nav>
 	<div id="nav">

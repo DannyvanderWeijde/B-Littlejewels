@@ -53,11 +53,11 @@ body{
     -webkit-animation: websiteOpacity 500ms ease-in-out;
     -moz-animation: websiteOpacity 500ms ease-in-out;
     -o-animation: websiteOpacity 500ms ease-in-out;
-    background-color: #f6f5f1;
 }
 
 h1, h2, h3, h4, h5{
     font-size: 32px;
+    color: #d1aed8;
 }
 
 .contentContainer{
