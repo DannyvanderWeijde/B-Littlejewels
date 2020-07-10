@@ -61,7 +61,9 @@ h1, h2, h3, h4, h5{
 }
 
 .contentContainer{
-    max-width: 1440px;
+    max-width: 1240px;
     height: auto;
     overflow: auto;
+    margin: 0 auto;
+    padding: 0px 20px;
 }

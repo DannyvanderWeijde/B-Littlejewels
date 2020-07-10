@@ -9,5 +9,10 @@
 
 ?>
 <div itemscope="" itemtype="http://schema.org/Webpage">
-    <h1>home</h1>
+    <div class="homeHeader">
+    	<a class="button" href="#">Bekijk onze proucten!</a>
+    </div>
+    <div class="contentContainer">
+        <h3>home</h3>	
+    </div>
 </div>

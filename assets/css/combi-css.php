@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Version: 1.1
+ * Version: 1.2
  * Date: 8/5/2020
  * Author: Danny van der Weijde
  * notes:
@@ -23,7 +23,7 @@
 /* CSS files */
 $cssFiles = [];
 
-foreach (glob("assets/css/*/*.css") as $css){
+foreach (array_reverse(glob("assets/css/*/*.css")) as $css){
   if(strpos($css, "-ie.css")){
 
   }else{
