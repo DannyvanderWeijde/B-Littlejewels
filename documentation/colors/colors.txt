@@ -9,4 +9,3 @@ paars: #d1aed8
 creme: #fff2d2
 blauw: #0c3462
 White: #fff
-Black: #000

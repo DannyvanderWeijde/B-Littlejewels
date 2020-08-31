@@ -14,6 +14,9 @@
 	<h2>B-Little Jewels</h2>
 </div>
 <nav>
+	<div id="phoneMenu">
+		<i class="fas fa-bars"></i>
+	</div>
 	<div id="nav">
 		<div id="innerNav">
 			<div id="navItemsContainer">
@@ -41,6 +44,34 @@
 					<a href="#">
 						<i class="fas fa-shopping-cart"></i>
 					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="phoneNav" class="phoneNavActive">
+		<div id="innerNav">
+			<div id="navItemsContainer">
+				<div class="navItem">
+					<a href="#">Profiel</a>
+				</div>
+				<div class="navItem">
+					<a href="#">Winkelwagen</a>
+				</div>
+				<hr>
+				<div class="navItem">
+					<a href="home">Home</a>
+				</div>
+				<div class="navItem">
+					<a href="#">Over Ons</a>
+				</div>
+				<div class="navItem">
+					<a href="#">
+						Producten
+						<i class="fas fa-angle-down"></i>
+					</a>
+				</div>
+				<div class="navItem">
+					<a href="#">Contact</a>
 				</div>
 			</div>
 		</div>

@@ -7,11 +7,22 @@
 	overflow: auto;
 }
 
+nav{
+	margin: 0px 0px 40px 0px;
+}
+
+#phoneMenu{
+	display: none;
+}
+
+#phoneNav{
+	display: none;
+}
+
 #nav{
-	border-top: 3px solid #0c3462;
-	border-bottom: 3px solid #0c3462;
+	display: block;
+	background-color: #d1aed8;
 	padding: 20px 0px;
-	margin: 0px 0px 50px 0px;
 }
 
 #innerNav{
@@ -26,31 +37,25 @@
 
 #companyHeader{
 	max-width: 1240px;
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
-	padding: 35px 0px;
-	overflow: hidden;
-	text-align: center;
 	position: relative;
 }
 
 #companyHeader a{
+	width: auto;
 	position: absolute;
 	top: 50%;
 	left: 0%;
 	transform: translate(0%, -50%);
+	margin: 0px;
 }
 
 #companyHeader a img{
-	width: 125px;
 	margin: 0px 0px 0px 20px;
 }
 
 #companyHeader h2{
-	font-family: 'Parisienne', cursive, Arial, Helvetica, sans-serif;
 	font-weight: 500;
 	font-size: 48px;
 }
@@ -64,7 +69,7 @@
 }
 
 .navItem a{
-	color: #0c3462;
+	color: #fff2d2;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -76,7 +81,18 @@
 }
 
 .navItem a:hover{
-	color: #d1aed2;
+	color: #0c3462;
+}
+
+.sticky{
+    position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.sticky + div {
+	padding-top: 120px;
 }
 
 }

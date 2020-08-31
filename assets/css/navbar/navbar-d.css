@@ -1,0 +1,87 @@
+#phoneMenu{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #d1aed8;
+	padding: 15px 0px;
+	z-index: 2;
+}
+
+#phoneMenu i{
+	float: right;
+    margin: 0px 20px 0px 0px;
+    font-size: 20px;
+    color: #fff2d2;
+}
+
+#phoneNav{
+	display: none;
+}
+
+.phoneNavActive{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #d1aed8;
+	padding: 20px;
+	z-index: 3;
+}
+
+.phoneNavActive hr{
+	border: 0.5px solid #fff2d2;
+    margin: 5px 0px;
+}
+
+#nav{
+	display: none;
+}
+
+#companyHeader{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 35px 0px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#companyHeader a{
+	display: block;
+	width: 125px;
+    height: 125px;
+    margin: 0 auto;
+  	margin-bottom: 30px;
+}
+
+#companyHeader a img{
+	width: 125px;
+}
+
+#companyHeader h2{
+	font-family: 'Parisienne', cursive, Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 48px;
+}
+
+.phoneNavActive .navItem:first-child{
+	margin: 0px 0px 25px 0px;
+}
+
+.phoneNavActive .navItem{
+	margin: 25px 0px 25px 0px;
+}
+
+.phoneNavActive .navItem a{
+	color: #fff2d2;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s linear color;
+    -moz-transition: 0.2s linear color;
+    -o-transition: 0.2s linear color;
+    -ms-transition: 0.2s linear color;
+    transition: 0.2s linear color;
+}
