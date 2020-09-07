@@ -1,0 +1,1 @@
+Zorg dat de nav bar beter wordt gecodeerd, zodat de nav height en weight heeft op de mobile versie en ook even kijken of de indelen van elementen beter kan

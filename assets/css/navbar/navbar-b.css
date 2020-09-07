@@ -65,7 +65,7 @@ nav{
 	width: auto;
 	overflow: auto;
 	display: inline-block;
-	margin: 0px 15px;
+	margin: 2px 15px 0px 15px;
 }
 
 .navItem a{
